@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pnstyler"
+version = "0.0.1"
+authors = [
+  { name="Pietro Novelli", email="pietronvll@gmail.com" },
+]
+description = "Matplotlib styles fro machine learning"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "matplotlib",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pietronvll/mplstyler"
