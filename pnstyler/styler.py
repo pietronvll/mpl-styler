@@ -125,7 +125,7 @@ def available_palettes():
         print(f"{k.replace('_', ' ').capitalize()}: {k}")
 
 
-plt.rcParams["axes.prop_cycle"] = cycler(color=palettes["categorical_light"])
+plt.rcParams["axes.prop_cycle"] = cycler(color=palettes["pastel"])
 
 # Typography
 plt.rcParams["font.family"] = "IBM Plex Sans"
